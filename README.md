@@ -22,3 +22,11 @@ https://test-work595.vercel.app/
 <p align="center">
   <img src="./src/assets/screen.png" width="600">
 </p>
+
+<p align="center">
+  <img src="./src/assets/screen2.png" width="600">
+</p>
+
+<p align="center">
+  <img src="./src/assets/screen3.png" width="600">
+</p>
