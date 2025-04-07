@@ -1,10 +1,10 @@
-export const SERVER_URL = "http://api.openweathermap.org";
+export const SERVER_URL = "https://api.openweathermap.org";
 export const WEATHER_LINK = `${SERVER_URL}/data/2.5/weather`;
 export const API_KEY = process.env.NEXT_PUBLIC_OPENWEATHER_API_KEY;
 export const FORECAST_LINK = `${SERVER_URL}/data/2.5/forecast`;
 export const GEO_API_URL = "https://api.openweathermap.org/geo/1.0/direct";
 
-export const server_link = "http://api.openweathermap.org/geo/1.0/direct";
+export const server_link = "https://api.openweathermap.org/geo/1.0/direct";
 
 export const ROUTES = {
   HOME: "/",
