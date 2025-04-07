@@ -1,3 +1,6 @@
+## ссылка на деплой 
+https://test-work595.vercel.app/
+
 ### Как запустить проект локально
 
 1. Клонировать репозиторий
@@ -17,5 +20,5 @@
 7) ESLint
 
 <p align="center">
-  <img src="./src/assets/images/screen.png" width="600">
+  <img src="./src/assets/screen.png" width="600">
 </p>
