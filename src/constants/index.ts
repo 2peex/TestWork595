@@ -27,6 +27,9 @@ export const TEXT_CONSTANTS = {
     ERROR_WEATHER_DATA_2: "Ошибка получения погоды",
     ERROR_WEATHER_DATA_3: "Некорректные параметры",
     ERROR_FORECAST_DATA: "Ошибка при загрузке прогноза",
+    ERROR_GEO_VALIDATE: "Произошла ошибка при валидации города",
+    ERROR_CITY_NOT_FOUND: "Город не найден",
+    ERROR_REQUEST_GEO: "Ошибка при запросе к геокодингу"
   },
   TABS: {
     DAILY: "daily",

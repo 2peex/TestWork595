@@ -19,7 +19,7 @@ import Image from "next/image";
 import { useWeatherStore } from "@/store/weatherStore";
 import { useWeather } from "@/hooks/useWeather";
 import { useFavoritesStore } from "@/store/favoritesStore";
-import { SkeletonMain } from "./styled/Skeleton";
+import { SkeletonWeatherNow } from "./styled/Skeleton";
 
 const Temperature = styled.span`
   font-size: 4rem;
@@ -50,7 +50,7 @@ export default function WeatherNowDisplay() {
   const formatDate = currentDate.toLocaleDateString("ru-RU", options);
 
   return !loading ? (
-    <SkeletonMain />
+    <SkeletonWeatherNow />
   ) : (
     <StyledCard>
       <StyledCardHeader>

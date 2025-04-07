@@ -46,13 +46,13 @@ export default function SearchBar() {
       );
 
       if (!response.ok) {
-        throw new Error("Ошибка при запросе к геокодингу");
+        throw new Error(TEXT_CONSTANTS.ERRORS.ERROR_GEO_VALIDATE);
       }
 
       const data = await response.json();
 
       if (!data || data.length === 0) {
-        setError("Город не найден");
+        setError(TEXT_CONSTANTS.ERRORS.ERROR_REQUEST_GEO);
         return;
       }
       setLoading(true);
@@ -60,7 +60,7 @@ export default function SearchBar() {
       setSearchInput("");
       setError("");
     } catch (err) {
-      setError("Произошла ошибка при валидации города");
+      setError(TEXT_CONSTANTS.ERRORS.ERROR_GEO_VALIDATE);
       console.error(err);
     }
   };
