@@ -14,6 +14,8 @@ export function useWeather(cityName: string) {
 
       if (cityName) {
         getWeather(cityName);
+      } else {
+        getWeather("Moscow")
       }
     } catch (err) {
       setError(TEXT_CONSTANTS.ERRORS.ERROR_WEATHER_DATA_1);
